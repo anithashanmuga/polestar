@@ -5,7 +5,6 @@
 <!-- End Header -->
 <!-- ======= Hero Section ======= -->
 
-
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -136,25 +135,6 @@
       </div>
     </section><!-- End Services Section -->
 
-      <!-- <div id="testimonials1" class="testimonials1">
-         <div class="container">
-            <div class="swiper-container">
-               <div class="swiper-wrapper">
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/Z0ktfskN/peter-broomfield-m3m-ln-R90u-M-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/MTTSXjbn/brandon-atchison-e-BJWhlq-WR54-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/8cfgmQYD/campbell-3-ZUs-NJhi-Ik-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/8Ck5BcmS/evgeny-tchebotarev-aiwu-Lj-LPFn-U-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/66F8J9tr/hakon-sataoen-qyfco1nf-Mtg-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/ydbzRYvv/joey-banks-YApi-Wyp0lqo-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/NGKKzyqG/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg)"></div>
-                     <div class="swiper-slide" style="background-image:url(https://i.postimg.cc/JhK81QJw/marcus-p-o-UBjd22g-F6w-unsplash.jpg)"></div>
-               </div>
-               <div class="swiper-pagination"></div>
-            </div>
-         </div>
-      </div> -->
-
-       <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
 
