@@ -58,7 +58,6 @@
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
-
     </div>
   </section><!-- End Hero -->
 
@@ -69,28 +68,30 @@
    <section id="about" class="about">
       <div class="container">
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>Who we are?</h2>
         </div>
 
-        <div class="row content">
-          <div class="col-lg-6 order-1">
-            <img src="assets/img/Coworking.jpg" width="500" height="300" alt="">
+
+        <div class="row content justify-content-md-center ">
+          <div class="col col-lg-6">
+            <img src="assets/img/Coworking.jpg" width="500" height="300" alt="">          
           </div>
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+          <div class="col col-lg-6 "><br><br>
+            <p> Our team is just a bunch of working people who couldn’t find the perfect work spot; 
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 
+                  Hence, we decided to come together to solve this problem for us —- and for you.
+                  </li>
+                  <li><i class="ri-check-double-line"></i> 
+                  We, at Polestar, understand that the littlest feeling of discomfort
+                  </li>
+                  <li><i class="ri-check-double-line"></i> 
+                  while working can become a big deal so we make sure you don’t face them.Ever.
+                  </li>
+                </ul>
             </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-            <a href="#" class="btn-learn-more">Learn More</a>
-
           </div>
         </div>
-
       </div>
    </section><!-- End About Us Section -->
    
@@ -219,8 +220,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Gallery</h2>
-          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+          <h2>WHY WE ROCK</h2>
+          <p>Swipe through the images and see for yourself!</p>
         </div>
 
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
@@ -230,95 +231,64 @@
             <div class="col-xl-4 col-md-6 portfolio-item filter-books">
               <div class="portfolio-wrap">
                 <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
+                <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
+                </div> -->
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
+                <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
+                </div> -->
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
                 <a href="assets/img/cowork3.jpeg"  class="glightbox"><img src="assets/img/cowork3.jpeg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
+                <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
+                </div> -->
               </div>
             </div><!-- End Portfolio Item -->
             <div class="col-xl-4 col-md-6 portfolio-item filter-books">
               <div class="portfolio-wrap">
                 <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
+                <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
+                </div> -->
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
+                <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
+                </div> -->
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
                 <a href="assets/img/cowork3.jpeg"  class="glightbox"><img src="assets/img/cowork3.jpeg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
+                <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-              <div class="portfolio-wrap">
-                <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/cowork3.jpeg"  class="glightbox"><img src="assets/img/cowork3.jpeg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
+                </div> -->
               </div>
             </div><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
-
         </div>
-
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -331,26 +301,16 @@
           <p>Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
         </div>
 
-        <div class="row counters position-relative">
+        <div class="row justify-content-md-center counters position-relative">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clients</p>
+            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Open desk</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Cabins</p>
           </div>
 
         </div>
@@ -358,8 +318,74 @@
       </div>
     </section><!-- End Counts Section -->
 
+    
+     <!-- ======= Pricing Section ======= -->
+     <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>What we provide</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <h3>Day Pass</h3>
+              <h4><sup>Rs</sup>500<span> / day</span></h4>
+              <ul>
+                <!-- <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li> -->
+                <!-- <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li> -->
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box recommended">
+              <!-- <span class="recommended-badge">Recommended</span> -->
+              <h3>Open desk</h3>
+              <h4><sup>Rs</sup>7000<span> / month</span></h4>
+              <ul>
+                <!-- <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li> -->
+                <!-- <li class="na">Massa ultricies mi</li> -->
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <h3>Private cabins</h3>
+              <h4><sup>Rs</sup>10000<span> / month</span></h4>
+              <ul>
+                <!-- <li>per desk</li> -->
+                <!-- <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li> -->
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
      <!-- ======= Frequently Asked Questions Section ======= -->
-     <section id="faq" class="faq">
+     <!-- <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title">
@@ -418,7 +444,8 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section> -->
+    <!-- End Frequently Asked Questions Section -->
 
      <!-- ======= Contact Section ======= -->
      <section id="contact" class="contact">
