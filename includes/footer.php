@@ -22,6 +22,11 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
       <!-- <script src="assets/vendor/aos/aos.js"></script> -->
       <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -32,7 +37,7 @@
       <script src="assets/js/main.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-
-     
-   </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -38,7 +38,7 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/Coworking.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/coworking-spaces.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">A work experience like never before</h2>
@@ -74,7 +74,7 @@
 
         <div class="row content justify-content-md-center ">
           <div class="col col-lg-6">
-            <img src="assets/img/Coworking.jpg" width="500" height="300" alt="">          
+            <img src="assets/img/photo.jpg" width="500" height="300" alt="">          
           </div>
           <div class="col col-lg-6 "><br><br>
             <p> Our team is just a bunch of working people who couldn’t find the perfect work spot; 
@@ -94,48 +94,7 @@
         </div>
       </div>
    </section><!-- End About Us Section -->
-   
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><img src="assets/img/cowork1.jpg" class="card-img-top" alt="..."></div>
-              <h4><a href="">WHO WE ARE</a></h4>
-              <p>Our team is just a bunch of working people who couldn’t find the perfect work spot; 
-               hence, we decided to come together to solve this problem for us —- and for you. 
-               We, at Polestar, understand that the littlest feeling of discomfort 
-               while working can become a big deal so we make sure you don’t face them. Ever.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-              <div class="icon"><img src="assets/img/cowork1.jpg" class="card-img-top" alt="..."></div>
-              <h4><a href="">WHO WE ARE</a></h4>
-              <p>Our team is just a bunch of working people who couldn’t find the perfect work spot; 
-               hence, we decided to come together to solve this problem for us —- and for you. 
-               We, at Polestar, understand that the littlest feeling of discomfort 
-               while working can become a big deal so we make sure you don’t face them. Ever.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-              <div class="icon"><img src="assets/img/cowork1.jpg" class="card-img-top" alt="..."></div>
-              <h4><a href="">WHO WE ARE</a></h4>
-              <p>Our team is just a bunch of working people who couldn’t find the perfect work spot; 
-               hence, we decided to come together to solve this problem for us —- and for you. 
-               We, at Polestar, understand that the littlest feeling of discomfort 
-               while working can become a big deal so we make sure you don’t face them. Ever.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-
+  
     <section id="testimonials" class="testimonials">
       <div class="container">
 
@@ -144,66 +103,66 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/cowork2.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
+                <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
+                <h3>Krishnamourthy</h3>
                 <h4>Ceo &amp; Founder</h4>
-                <p>
+                <!-- <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                </p> -->
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/cowork3.jpeg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
+                <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
+                <h3>Sara deshpandey</h3>
                 <h4>Designer</h4>
-                <p>
+                <!-- <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                </p> -->
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/cowork2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
-                <p>
+                <!-- <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                </p> -->
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/cowork3.jpeg" class="testimonial-img" alt="">
+                <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
-                <p>
+                <!-- <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                </p> -->
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/cowork2.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
+                <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
+                <h3>Kirana</h3>
                 <h4>Entrepreneur</h4>
-                <p>
+                <!-- <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+                </p> -->
               </div>
             </div><!-- End testimonial item -->
 
@@ -228,9 +187,32 @@
 
 
           <div class="row gy-4 portfolio-container">
+
+            <div class="col-xl-4 col-md-6 portfolio-item ">
+              <div class="portfolio-wrap">
+                <a href=""  class="glightbox">
+                  <img src="assets/img/coworking-spaces.jpg" class="img-fluid" alt="">
+                </a>
+                <!-- <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item ">
+              <div class="portfolio-wrap">
+                <a href=""  class="glightbox">
+                  <img src="assets/img/gett.jpg" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
             <div class="col-xl-4 col-md-6 portfolio-item filter-books">
               <div class="portfolio-wrap">
-                <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/coworking-spaces.jpg" class="glightbox">
+                  <img src="assets/img/Potentia.png" class="img-fluid" alt=""></a>
                 <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -240,28 +222,9 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/photo.jpg"  class="glightbox"><img src="assets/img/WeWork.jpg" class="img-fluid" alt=""></a>
                 <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-              <div class="portfolio-wrap">
-                <a href="assets/img/cowork3.jpeg"  class="glightbox"><img src="assets/img/cowork3.jpeg" class="img-fluid" alt=""></a>
-                <!-- <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-              <div class="portfolio-wrap">
-                <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
-                <!-- <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                 </div> -->
               </div>
@@ -269,7 +232,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="assets/img/cowork1.jpg"  class="glightbox"><img src="assets/img/cowork2.jpg" class="img-fluid" alt=""></a>
+                <a href="assets/img/photo.jpg"  class="glightbox"><img src="assets/img/istockphoto.png" class="img-fluid" alt=""></a>
                 <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -279,7 +242,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
-                <a href="assets/img/cowork3.jpeg"  class="glightbox"><img src="assets/img/cowork3.jpeg" class="img-fluid" alt=""></a>
+                <a href="assets/img/Potentia.png" class="glightbox"><img src="assets/img/photo2.jpg" class="img-fluid" alt=""></a>
                 <!-- <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -297,8 +260,9 @@
       <div class="container">
 
         <div class="text-center title">
-          <h3>What we have achieved so far</h3>
-          <p>Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
+          <h3>What you get</h3>
+          <p>Becoming a member of Polestar could possibly be the best decision you take to upskill at your work,
+             whether it’s a business or a job. </p>
         </div>
 
         <div class="row justify-content-md-center counters position-relative">
@@ -318,14 +282,136 @@
       </div>
     </section><!-- End Counts Section -->
 
-    
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>What we provide</h2><br>
+            <p class="px-6 text-center">
+            A thriving workplace customized for your needs because we know every person is 
+            unique and so are their workplace needs. We have well-lit, air-conditioned, 
+            poshly furnished, super comfortable cabinets, 
+            cubicle settings, and desks with top-notch facilities and high-speed internet. 
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+              <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+                <div class="icon"><img src="assets/img/Wi-Fi.png" class="card-img-top" alt="..." ></div>
+                <h4 class="text-center pt-3"><a href="">Unlimited super fast wifi</a></h4>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box">
+                <div class="icon"><img src="assets/img/gett.jpg" class="card-img-top" alt="..."></div>
+                <h4 class="text-center pt-3"><a href="">Snacks and beverages</a></h4>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><img src="assets/img/istockphoto.png" class="card-img-top" alt="..." ></div>
+                <h4 class="text-center pt-3"><a href="">Meeting cabinets</a></h4>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><img src="assets/img/Library.jpg" class="card-img-top" alt="..."></div>
+                <h4 class="text-center pt-3"><a href="">Library</a></h4>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><img src="assets/img/computer.jpg" class="card-img-top" alt="..."></div>
+                <h4 class="text-center pt-3"><a href="">Computer rooms</a></h4>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><img src="assets/img/Gorgeous-kitchen.jpg" class="card-img-top" alt="..." ></div>
+                <h4 class="text-center pt-3"><a href="">Open kitchen space</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section><!-- End Services Section -->
+ 
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal" style="margin-top:20px;">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="container">
+              <div class="row">
+                <h2>Ger a free Inquiry</h2>
+                <!-- <p>Send us your inquiry by just completing this short form</p> -->
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="form-group col-12">
+                    <input type="text" name="name" placeholder="Your Name" class="form-control" id="name" required>
+                  </div>
+
+                  <div class="form-group col-12">
+                    <input type="email" placeholder="Email address" class="form-control" name="email" id="email" required>
+                  </div>
+
+                  <div class="form-group col-12">
+                    <input type="email" placeholder="Phone no" class="form-control" name="phone" id="phone" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+          </div>
+        <!-- <input type="button" class="button11" name="submit" id="submit" value="Submit"/> -->
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div id="popupContact">
+            <!-- Contact Us Form -->
+            <form action="#" id="form" method="post" name="form">
+              <img id="close" src="images/3.png" onclick ="div_hide()">
+              <h2>Contact Us</h2>
+              <hr>
+              <input id="name" name="name" placeholder="Name" type="text">
+              <input id="email" name="email" placeholder="Email" type="text">
+              <textarea id="msg" name="message" placeholder="Message"></textarea>
+              <a href="javascript:%20check_empty()" id="submit">Send</a>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
      <!-- ======= Pricing Section ======= -->
      <section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
           <h2>What we provide</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>A thriving workplace customized for your needs because we know every person is 
+            unique and so are their workplace needs. We have well-lit, air-conditioned, 
+            poshly furnished, super comfortable cabinets, cubicle settings, 
+            and desks with top-notch facilities and high-speed internet. </p>
         </div>
 
         <div class="row">
@@ -342,7 +428,9 @@
                 <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <!-- <a href=""  class="btn-buy">Buy Now</a> -->
+                <!-- <button class="btn-buy" >Buy Now</button> -->
+                <button id="popup" class="btn-buy" onclick="div_show()">Popup</button>
               </div>
             </div>
           </div>
@@ -359,7 +447,8 @@
                 <!-- <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <!-- <a href=""  class="btn-buy">Buy Now</a> -->
+                <button class="btn-buy" id="myBtn">Buy Now</button>
               </div>
             </div>
           </div>
@@ -374,7 +463,7 @@
                 <li>Nulla at volutpat dola</li> -->
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <button class="btn-buy" id="myBtn">Buy Now</button>
               </div>
             </div>
           </div>
@@ -452,7 +541,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Still not convinced?</h2>
           <p>Talk to us and we will hear about your
              workplace problems and try to make ends meet by providing the very best solutions!</p>
         </div>
@@ -486,7 +575,7 @@
 
               <div class="whatsapp">
                 
-                <a href="https://api.whatsapp.com/send?phone=9731863388&text=Hello GPSAGRILIFE, I would like to take below services from you, Please share more details on - " class="float" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=9731863388&text=Hello POLESTAR, I would like to take below services from you, Please share more details on - " class="float" target="_blank">
                   <i class="ri-whatsapp-line"></i>
                 </a>
                 <h4>Whatsapp:</h4>

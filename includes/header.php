@@ -26,7 +26,18 @@
       <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
    </head>
    <body>
-     
+    
+   
+   <a href="https://api.whatsapp.com/send?phone=9731863388&text=Hello POLESTAR,
+            I would like to take below services from you, Please share more details on - " 
+            class="whats-app" target="_blank">
+    <i class="ri-whatsapp-line my-float text-center"></i>
+   </a>
+   <a href="tel:9731863388" 
+            class="call-app" target="">
+    <i class="ri-phone-line my-float1 text-center"></i>
+    <!-- ri-phone-line -->
+   </a>
 
    <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
@@ -36,7 +47,9 @@
         <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
           <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Polestar</a></h1> -->
           <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html" class="logo me-auto me-lg-0 "><img src="assets/img/Pole star - final Logo-03.png" alt="" class="img-fluid .d-none .d-sm-block"></a>
+          <!-- <a href="index.html" class="logo me-auto me-lg-0 "><img src="assets/img/logo.jpg" alt="" class="img-fluid .d-none .d-sm-block"></a> -->
+          <a href="index.html" class="logo me-auto me-lg-0 ">
+            <img src="assets/img/Pole star - final Logo-03.png" alt="" class="img-fluid .d-none .d-sm-block"></a>
 
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
@@ -46,13 +59,27 @@
               <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
              
               <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-              <li><a href="#about" class="getstarted btn scrollto">Get Started</a></li>
-              
+              <!-- <li><a href="#about" class="getstarted btn scrollto">Get Started</a></li> -->
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+            <span> <i class="bi bi-list mobile-nav-toggle" style="color:black"></i> </span>
+            
           </nav><!-- .navbar -->
 
         </div>
       </div>
     </div>
   </header><!-- End Header -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+        $(function () { 
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 80) { 
+                    $('.logo img').attr('src','assets/img/logo.jpg');
+                }
+                if ($(this).scrollTop() < 80) { 
+                    $('.logo img').attr('src','assets/img/Pole star - final Logo-03.png');
+                }
+            })
+        });
+    </script>

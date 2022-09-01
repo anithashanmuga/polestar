@@ -105,6 +105,50 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+ #Whats app icon 
+--------------------------------------------------------------*/
+
+.whats-app {
+  position:fixed;
+	width:50px;
+	height:50px;
+	bottom:10px;
+	left:50px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size: 35px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  float: left;
+}
+
+.my-float {
+  margin-top:26px
+}
+
+
+.call-app{
+  position:fixed;
+	width:50px;
+	height:50px;
+	bottom:80px;
+	left:50px;
+	background-color:#2c16f0;
+	color:rgb(231, 216, 216);
+	border-radius:50px;
+	text-align:center;
+  font-size: 35px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+  float: left;
+}
+
+.my-float1 {
+  margin-top:26px
+}
+/*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
 
@@ -244,6 +288,15 @@ h6 {
   background-color: white;
 }
 
+#header.header-scrolled a {
+  background-color: white;
+  color: grey
+}
+
+#header.header-scrolled{
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
 
 #header .logo {
   /* font-size: 28px; */
@@ -264,7 +317,7 @@ h6 {
 
 @media screen and (max-width: 460px) {
   #header .logo img {
-    max-height: 50px;
+    max-height: 70px;
   }
 
   #header .logo {
@@ -274,6 +327,47 @@ h6 {
     line-height: 1;
     font-weight: 700;
     letter-spacing: 0.5px;
+  }
+
+  .whats-app {
+    position:fixed;
+    width:30px;
+    height:30px;
+    bottom:10px;
+    left:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    float: left;
+  }
+  
+  .my-float {
+    margin-top:16px
+  }
+  
+  
+  .call-app{
+    position:fixed;
+    width:30px;
+    height:30px;
+    bottom:50px;
+    left:20px;
+    background-color:#2c16f0;
+    color:rgb(231, 216, 216);
+    border-radius:50px;
+    text-align:center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    float: left;
+  }
+  
+  .my-float1 {
+    margin-top:26px
   }
 }
 
@@ -473,6 +567,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
+  /* color: rgb(12, 11, 11); */
   color: #fff;
   font-size: 28px;
   cursor: pointer;
@@ -489,6 +584,8 @@ h6 {
   .navbar ul {
     display: none;
   }
+
+
 }
 
 .navbar-mobile {
@@ -726,7 +823,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #d9232d;
+  /* background: #d9232d; */
 }
 
 @media (max-width: 992px) {
@@ -915,29 +1012,12 @@ section {
 }
 
 
-
-/* .swiper-container {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 80px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
-} */
-
-
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/Coworking.jpg") no-repeat;
+  background: url("../img/cowork2.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1863,4 +1943,55 @@ section {
 
 #footer .credits a:hover {
   color: #009961;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button11
+{
+  background: #47bb7c;
+  border-radius: 2px;
+  border-bottom: solid 2px #489368;
+  border-left: 0 none;
+  border-right: 0 none;
+  border-top: 0 none;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 13px;
 }
