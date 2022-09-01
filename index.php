@@ -384,24 +384,6 @@
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div id="popupContact">
-            <!-- Contact Us Form -->
-            <form action="#" id="form" method="post" name="form">
-              <img id="close" src="images/3.png" onclick ="div_hide()">
-              <h2>Contact Us</h2>
-              <hr>
-              <input id="name" name="name" placeholder="Name" type="text">
-              <input id="email" name="email" placeholder="Email" type="text">
-              <textarea id="msg" name="message" placeholder="Message"></textarea>
-              <a href="javascript:%20check_empty()" id="submit">Send</a>
-            </form>
-          </div>
-        </div>
-      </div>
-
-
      <!-- ======= Pricing Section ======= -->
      <section id="pricing" class="pricing">
       <div class="container">
@@ -429,8 +411,8 @@
               </ul>
               <div class="btn-wrap">
                 <!-- <a href=""  class="btn-buy">Buy Now</a> -->
-                <!-- <button class="btn-buy" >Buy Now</button> -->
-                <button id="popup" class="btn-buy" onclick="div_show()">Popup</button>
+                <button class="btn-buy" >Buy Now</button>
+                <!-- <button id="popup" class="btn-buy" onclick="div_show()">Popup</button> -->
               </div>
             </div>
           </div>
@@ -584,7 +566,6 @@
 
               <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
             </div>
-
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
@@ -605,7 +586,7 @@
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" rows="7" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
