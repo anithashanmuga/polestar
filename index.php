@@ -494,7 +494,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="" method="post" role="form" class="php-email-form">
+            <form action="contact_me.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -507,7 +507,7 @@
               </div>
               <div class="form-group">
                 <label for="name">Phone no</label>
-                <input type="number" class="form-control" name="phone" id="phone" required>
+                <input type="number" class="form-control" maxlength="10" name="phone" id="phone" required>
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
@@ -518,7 +518,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button id="submit_btn" type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -528,4 +528,5 @@
     </section><!-- End Contact Section -->
 
 </main>
+
 <?php include'includes/footer.php'?>
