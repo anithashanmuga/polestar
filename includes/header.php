@@ -16,6 +16,8 @@
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
       <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
       <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -24,6 +26,9 @@
       <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" rel="stylesheet">
       <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap-select.min.css">
+      <!-- FONTAWESOME STYLE SHEET -->
+      <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome/css/font-awesome.min.css" />
    </head>
    <body>
     

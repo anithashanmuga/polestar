@@ -3,7 +3,7 @@ if(isset($_POST['submit']))
 {
    extract($_POST); 
     $to="anitha13mar@gmail.com"; 
-    $strSubject="Glad Infra Contact Enquiry";
+    $strSubject="Pole Star General Enquiry";
     $message =  "<table width='100%' border='1' cellspacing='0' cellpadding='0'>
                 <tr>
                 <td width='10%' colspan='4' bgcolor='#E31E24' style='padding:10px; color: #fff; font-weight:bold;font-size:24px;'>
@@ -21,10 +21,7 @@ if(isset($_POST['submit']))
                 <td style='padding:5px;font-weight:bold;'>Email Id</td>
                 <td style='padding:5px;'>".$form_email."</td>
                 </tr>
-                <tr>
-                <td style='padding:5px;font-weight:bold;'>Message</td>
-                <td style='padding:5px;'>".$message."</td>
-                </tr>
+                
                 
                 
                

@@ -96,7 +96,7 @@
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
-      if (window.scrollY > 80) {
+      if (window.scrollY > 70) {
         backtotop.classList.add('active')
       } else {
         backtotop.classList.remove('active')
@@ -274,35 +274,92 @@
     loop: true,
   });
 
-  var modal = document.getElementById('myModal');
+  // Vertically center Bootstrap modal popup function by = custom.js ==============//
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+	function popup_vertical_center(){	
+		jQuery(function() {
+			function reposition() {
+				var modal = jQuery(this),
+				dialog = modal.find('.modal-dialog');
+				modal.css('display', 'block');
+				// Dividing by two centers the modal exactly, but dividing by three 
+				// or four works better for larger screens.
+				dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
+			}
+			// Reposition when a modal is shown
+			jQuery('.modal').on('show.bs.modal', reposition);
+			// Reposition when the window is resized
+			jQuery(window).on('resize', function() {
+				jQuery('.modal:visible').each(reposition);
+			});
+		});
+	}
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+  // > input type file function by = custom.js ========================== //	 	 
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
+	function input_type_file_form(){
+		jQuery(document).on('change', '.btn-file :file', function() {
+			var input = jQuery(this),
+				numFiles = input.get(0).files ? input.get(0).files.length : 1,
+				label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+			input.trigger('fileselect', [numFiles, label]);
+		});
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
+		jQuery('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+			var input = jQuery(this).parents('.input-group').find(':text'),
+				log = numFiles > 10 ? numFiles + ' files selected' : label;
+			if (input.length) {
+				input.val(log);
+			} else {
+				if (log) alert(log);
+			}
+		});	
+	}
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+// > input Placeholder in IE9 function by = custom.js ======================== //	
 
+	function placeholderSupport(){
+	/* input placeholder for ie9 & ie8 & ie7 */
+		jQuery.support.placeholder = ('placeholder' in document.createElement('input'));
+		/* input placeholder for ie9 & ie8 & ie7 end*/
+		/*fix for IE7 and IE8  */
+		if (!jQuery.support.placeholder) {
+			jQuery("[placeholder]").on('focus', function () {
+				if (jQuery(this).val() === jQuery(this).attr("placeholder")) jQuery(this).val("");
+			}).blur(function () {
+				if (jQuery(this).val() === "") jQuery(this).val(jQuery(this).attr("placeholder"));
+			}).blur();
+
+			jQuery("[placeholder]").parents("form").on('submit', function () {
+				jQuery(this).find('[placeholder]').each(function() {
+					if (jQuery(this).val() === jQuery(this).attr("placeholder")) {
+						 jQuery(this).val("");
+					}
+				});
+			});
+		}
+		/*fix for IE7 and IE8 end */
+	}
 
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
+
+
+  
+/*--------------------------------------------------------------------------------------------
+	document.ready ALL FUNCTION START
+---------------------------------------------------------------------------------------------*/
+	jQuery(document).ready(function() { 		
+     
+    // > Vertically center Bootstrap modal popup function 
+      popup_vertical_center();
+    // > input Placeholder in IE9 function 		
+      placeholderSupport(),
+
+      input_type_file_form()
+    
+    })
 
 })()

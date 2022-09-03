@@ -335,75 +335,41 @@
     </section><!-- End Services Section -->
 
 
-        <div class="form-popup" id="myForm">
-          <div class="modal-content">
-            <form action="contact_me.php" method="post" role="form" class="php-email-form">
-                <div class="row">
-                  <div class="col-10">
-                    <h2>Ger a free Inquiry</h2> 
-                  </div>
-                  <div class="col-2"><span class="close cancel" onclick="closeForm()">&times;</span></div>
-                </div>
-                
-                  <div class="form-group pt-2">
-                    <input type="text" name="name" placeholder="Your Name" class="form-control" id="name" required>
-                  </div>
-
-                  <div class="form-group pt-2">
-                    <input type="number" placeholder="Phone no" class="form-control" name="phone" id="phone" required>
-                  </div>
-
-                  <div class="form-group pt-2">
-                    <textarea class="form-control" placeholder="Message" name="message" rows="5" required></textarea>
-                  </div>
-
-                  <div class="row justify-content-md-center pt-4">
-                    <div class="col text-center ">
-                      <button type="button" class="btn btn-primary">Send</button>
-                    </div>
-                    <div class="col text-center">
-                      <button type="button" class="btn btn-secondary" onclick="closeForm()">Close</button>
-                    </div>
-                  </div>
-               
-            </form>
-
-          </div>
-        </div>
-
-
-        <!-- <div id="enq" class="modal fade" role="dialog">
+        <div class="modal" role="dialog" id="myForm">
           <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header bg-primary">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title text-white">Enquire Here</h4>
-                </div>
+              <div class="modal-header">
+                  <h4 class="modal-title" >Ger a free Inquiry</h4>
+                  <span class="close cancel" onclick="closeForm()">&times;</span>
+              </div>
+
+              <div class="modal-body">
                 <div class="modal-body">
-                  <form  method="post" action="contact_mailer1.php"  id="contact-form1">
+                  <form  method="post" action="contact_me.php"  id="contact-form1">
                       <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
                               <div class="input-group">
-                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                  <!-- <span class="input-group-addon">
+                                    <i class="fa fa-user"></i></span> -->
                                   <input name="form_name" type="text" required="" class="form-control" placeholder="Enter Name">
                               </div>
                             </div>
                             <div class="form-group">
                               <div class="input-group">
-                                  <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
+                                  <!-- <span class="input-group-addon"><i class="fa fa-mobile"></i></span> -->
                                   <input name="form_phone" type="text" required="" class="form-control" placeholder="Enter Phone Number">
                               </div>
                             </div>
                             <div class="form-group">
                               <div class="input-group">
-                                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                  <!-- <span class="input-group-addon"><i class="fa fa-envelope"></i></span> -->
                                   <input name="form_email" type="email"  class="form-control" placeholder="Enter Email Id">
                               </div>
                             </div>
                             <div class="form-group">
                               <div class="input-group">
-                                  <span class="input-group-addon v-align-t"><i class="fa fa-pencil"></i></span>
+                                  <!-- <span class="input-group-addon v-align-t"><i class="fa fa-pencil"></i></span> -->
                                   <textarea name="message" rows="4" class="form-control " required="" placeholder="Message"></textarea>
                               </div>
                             </div>
@@ -414,10 +380,11 @@
                       </div>
                   </form>
                 </div>
+              </div>
             </div>
           </div>
-        </div> -->
-     
+        </div>
+
      <!-- ======= Pricing Section ======= -->
      <section id="pricing" class="pricing">
       <div class="container">
@@ -439,13 +406,11 @@
                 <button class="btn-buy" onclick="openForm()">Buy Now</button>
               </div> -->
 
-
-              <div class="call-to-action-right btn-wrap p-tb30">
-                     <a data-toggle="modal" data-target="#enq" 
-                     class=" btn-buy site-button skew-btn bxd red m-r15 text-uppercase font-weight-600 button-md" >
-                      &nbsp; Buy Now
-                     </a>
+              <div class="btn-wrap">
+                <!-- <a href=""  class="btn-buy">Buy Now</a> -->
+                <button class="btn-buy" onclick="openForm()">Buy Now</button>
               </div>
+
             </div>
           </div>
 
@@ -455,11 +420,6 @@
               <h3>Open desk</h3>
               <h4><sup>Rs</sup>7000<span> / month</span></h4>
               <ul>
-                <!-- <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li> -->
-                <!-- <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
                 <!-- <a href=""  class="btn-buy">Buy Now</a> -->
@@ -473,11 +433,6 @@
               <h3>Private cabins</h3>
               <h4><sup>Rs</sup>10000<span> / month</span></h4>
               <ul>
-                <!-- <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li> -->
-                <!-- <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li> -->
               </ul>
               <div class="btn-wrap">
                 <button class="btn-buy" id="myBtn" onclick="openForm()">Buy Now</button>
@@ -535,7 +490,8 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="contact_me.php" method="post" role="form" class="php-email-form">
+         
+            <form action="contact_me.php" method="post" role="form" id="contact-form1" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -548,60 +504,20 @@
               </div>
               <div class="form-group">
                 <label for="name">Phone no</label>
-                <input type="number" class="form-control" maxlength="10" name="phone" id="phone" required>
+                <input type="phone" class="form-control" maxlength="10" name="phone" id="phone" required>
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="6" required></textarea>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button id="submit_btn" type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
-
-                        <!-- <form  method="post" action="contact_me.php"  id="contact-form8">
-                           <div class="row">
-                              <div class="col-md-12">
-                                 <div class="form-group">
-                                    <div class="input-group">
-                                       <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                       <input name="form_name" type="text" required="" class="form-control" placeholder="Name">
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <div class="form-group">
-                                    <div class="input-group">
-                                       <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                       <input name="form_email" type="text" class="form-control" required="" placeholder="Email">
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <div class="form-group">
-                                    <div class="input-group">
-                                       <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                       <input name="form_phone" type="text" class="form-control" required="" placeholder="Phone Number">
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <div class="form-group">
-                                    <div class="input-group">
-                                       <span class="input-group-addon v-align-t"><i class="fa fa-pencil"></i></span>
-                                       <textarea name="message" rows="4" class="form-control " required="" placeholder="Message"></textarea>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-12">
-                                 <button name="submit" type="submit" class="site-button   pull-right">Submit  <i class="fa fa-angle-double-right"></i></button>
-                              </div>
-                           </div>
-                        </form> -->
           </div>
         </div>
       </div>
@@ -609,34 +525,87 @@
 </main>
 
 
+
 <script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-
-
-function popup_vertical_center(){	
-      jQuery(function() {
-        function reposition() {
-          var modal = jQuery(this),
-          dialog = modal.find('.modal-dialog');
-          modal.css('display', 'block');
-          // Dividing by two centers the modal exactly, but dividing by three 
-          // or four works better for larger screens.
-          dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
-        }
-        // Reposition when a modal is shown
-        jQuery('.modal').on('show.bs.modal', reposition);
-        // Reposition when the window is resized
-        jQuery(window).on('resize', function() {
-          jQuery('.modal:visible').each(reposition);
-        });
-      });
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
     }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+
+
+    function popup_vertical_center(){	
+        jQuery(function() {
+          function reposition() {
+            var modal = jQuery(this),
+            dialog = modal.find('.modal-dialog');
+            modal.css('display', 'block');
+            // Dividing by two centers the modal exactly, but dividing by three 
+            // or four works better for larger screens.
+            dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
+          }
+          // Reposition when a modal is shown
+          jQuery('.modal').on('show.bs.modal', reposition);
+          // Reposition when the window is resized
+          jQuery(window).on('resize', function() {
+            jQuery('.modal:visible').each(reposition);
+          });
+        });
+      }
+
+
+    function input_type_file_form(){
+        jQuery(document).on('change', '.btn-file :file', function() {
+          var input = jQuery(this),
+            numFiles = input.get(0).files ? input.get(0).files.length : 1,
+            label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+          input.trigger('fileselect', [numFiles, label]);
+        });
+
+        jQuery('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+          var input = jQuery(this).parents('.input-group').find(':text'),
+            log = numFiles > 10 ? numFiles + ' files selected' : label;
+          if (input.length) {
+            input.val(log);
+          } else {
+            if (log) alert(log);
+          }
+        });	
+      }
+
+    // > input Placeholder in IE9 function by = custom.js ======================== //	
+
+      function placeholderSupport(){
+      /* input placeholder for ie9 & ie8 & ie7 */
+        jQuery.support.placeholder = ('placeholder' in document.createElement('input'));
+        /* input placeholder for ie9 & ie8 & ie7 end*/
+        /*fix for IE7 and IE8  */
+        if (!jQuery.support.placeholder) {
+          jQuery("[placeholder]").on('focus', function () {
+            if (jQuery(this).val() === jQuery(this).attr("placeholder")) jQuery(this).val("");
+          }).blur(function () {
+            if (jQuery(this).val() === "") jQuery(this).val(jQuery(this).attr("placeholder"));
+          }).blur();
+
+          jQuery("[placeholder]").parents("form").on('submit', function () {
+            jQuery(this).find('[placeholder]').each(function() {
+              if (jQuery(this).val() === jQuery(this).attr("placeholder")) {
+                jQuery(this).val("");
+              }
+            });
+          });
+        }
+        /*fix for IE7 and IE8 end */
+      }	
+
+    
+
 </script>
+
+<script type="text/javascript">
+          $('#contact-form1').validate();
+      </script>
 
 <?php include'includes/footer.php'?>

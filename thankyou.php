@@ -16,29 +16,25 @@
       <!-- MOBILE SPECIFIC -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- BOOTSTRAP STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" rel="stylesheet">
+      <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap-select.min.css">
       <!-- FONTAWESOME STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
-      <!-- FLATICON STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
-      <!-- ANIMATE STYLE SHEET --> 
-      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-      <!-- OWL CAROUSEL STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-      <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
-      <!-- MAGNIFIC POPUP STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
-      <!-- MAIN STYLE SHEET -->
+      <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome/css/font-awesome.min.css" />
+    
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- THEME COLOR CHANGE STYLE SHEET -->
-      <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css">
-      <!-- SIDE SWITCHER STYLE SHEET -->
-      <link rel="stylesheet" type="text/css" href="css/switcher.css">
-      <!-- REVOLUTION SLIDER CSS -->
-      <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
-      <!-- REVOLUTION NAVIGATION STYLE -->
-      <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
       <!-- GOOGLE FONTS -->
       <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
@@ -67,12 +63,11 @@
                   <!-- TITLE END -->
                </div>
                <div class="section-content">
-               <div class="row">
-<h3 class="text-center">Our Representative will be contacting you at the earliest.</h3><br>
-<center><a href="index.php" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
-<i class="fa fa-home"></i>     Back To Home 
-               </a></center>
-</div>
+                  <div class="row">
+                     <h3 class="text-center">Our Representative will be contacting you at the earliest.</h3><br>
+                     <center><a href="index.php" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
+                           <i class="fa fa-home"></i>     Back To Home     </a></center>
+                  </div>
                </div>
             </div>
          </div>
