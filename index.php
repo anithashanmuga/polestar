@@ -67,10 +67,9 @@
 <!-- ======= About Us Section ======= -->
    <section id="about" class="about">
       <div class="container">
-        <div class="section-title">
+        <div class="section-header">
           <h2>Who we are?</h2>
         </div>
-
 
         <div class="row content justify-content-md-center ">
           <div class="col col-lg-6">
@@ -105,12 +104,13 @@
               <div class="testimonial-item">
                 <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
                 <h3>Krishnamourthy</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <!-- <p>
+                <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  The biggest hurdle for us was to find an office that was not too heavy on the pocket 
+                  and vibrant to keep up the spirits. Luckily we found Pole Star which offered us the most modern
+                   looking premises along with a young and lively work environment.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
+                </p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -119,11 +119,13 @@
                 <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
                 <h3>Sara deshpandey</h3>
                 <h4>Designer</h4>
-                <!-- <p>
+                <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Team Pole Star has been extremely prompt with support and attending to quite many 
+                  requests/issues which was extremely helpful for my team. 
+                  We had a pleasant stay in a great ambience.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
+                </p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -132,11 +134,13 @@
                 <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
-                <!-- <p>
+                <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  When you start something, you add values to the economy, yourself and others 
+                  by giving them new opportunities to work differently 
+                  and Polestar provides the best launch pad for starting up.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
+                </p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -145,27 +149,14 @@
                 <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
-                <!-- <p>
+                <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Pole Star will always have a special place in our journey as an ideal launch pad 
+                  platform for a startup.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
+                </p>
               </div>
             </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/icon1.jpg" class="testimonial-img" alt="">
-                <h3>Kirana</h3>
-                <h4>Entrepreneur</h4>
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-              </div>
-            </div><!-- End testimonial item -->
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -286,7 +277,7 @@
     <section id="services" class="services">
         <div class="container">
 
-          <div class="section-title">
+          <div class="section-header">
             <h2>What we provide</h2><br>
             <p class="px-6 text-center">
             A thriving workplace customized for your needs because we know every person is 
@@ -342,58 +333,94 @@
           </div>
         </div>
     </section><!-- End Services Section -->
- 
-      <!-- The Modal -->
-      <div id="myModal" class="modal" style="margin-top:20px;">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <div class="container">
-              <div class="row">
-                <h2>Ger a free Inquiry</h2>
-                <!-- <p>Send us your inquiry by just completing this short form</p> -->
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="form-group col-12">
+
+
+        <div class="form-popup" id="myForm">
+          <div class="modal-content">
+            <form action="contact_me.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-10">
+                    <h2>Ger a free Inquiry</h2> 
+                  </div>
+                  <div class="col-2"><span class="close cancel" onclick="closeForm()">&times;</span></div>
+                </div>
+                
+                  <div class="form-group pt-2">
                     <input type="text" name="name" placeholder="Your Name" class="form-control" id="name" required>
                   </div>
 
-                  <div class="form-group col-12">
-                    <input type="email" placeholder="Email address" class="form-control" name="email" id="email" required>
+                  <div class="form-group pt-2">
+                    <input type="number" placeholder="Phone no" class="form-control" name="phone" id="phone" required>
                   </div>
 
-                  <div class="form-group col-12">
-                    <input type="email" placeholder="Phone no" class="form-control" name="phone" id="phone" required>
+                  <div class="form-group pt-2">
+                    <textarea class="form-control" placeholder="Message" name="message" rows="5" required></textarea>
                   </div>
 
-                  <div class="form-group">
-                    <label for="name">Message</label>
-                    <textarea class="form-control" name="message" rows="10" required></textarea>
+                  <div class="row justify-content-md-center pt-4">
+                    <div class="col text-center ">
+                      <button type="button" class="btn btn-primary">Send</button>
+                    </div>
+                    <div class="col text-center">
+                      <button type="button" class="btn btn-secondary" onclick="closeForm()">Close</button>
+                    </div>
                   </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-              </div>
+               
+            </form>
+
           </div>
-        <!-- <input type="button" class="button11" name="submit" id="submit" value="Submit"/> -->
         </div>
-      </div>
 
+
+        <!-- <div id="enq" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title text-white">Enquire Here</h4>
+                </div>
+                <div class="modal-body">
+                  <form  method="post" action="contact_mailer1.php"  id="contact-form1">
+                      <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                  <input name="form_name" type="text" required="" class="form-control" placeholder="Enter Name">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-mobile"></i></span>
+                                  <input name="form_phone" type="text" required="" class="form-control" placeholder="Enter Phone Number">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                  <input name="form_email" type="email"  class="form-control" placeholder="Enter Email Id">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="input-group">
+                                  <span class="input-group-addon v-align-t"><i class="fa fa-pencil"></i></span>
+                                  <textarea name="message" rows="4" class="form-control " required="" placeholder="Message"></textarea>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <center>   <button name="submit" type="submit"  class="site-button  m-r15">Submit  <i class="fa fa-angle-double-right"></i></button></center>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div> -->
+     
      <!-- ======= Pricing Section ======= -->
      <section id="pricing" class="pricing">
       <div class="container">
-
-        <div class="section-title">
-          <h2>What we provide</h2>
-          <p>A thriving workplace customized for your needs because we know every person is 
-            unique and so are their workplace needs. We have well-lit, air-conditioned, 
-            poshly furnished, super comfortable cabinets, cubicle settings, 
-            and desks with top-notch facilities and high-speed internet. </p>
-        </div>
-
         <div class="row">
 
           <div class="col-lg-4 col-md-6">
@@ -407,10 +434,17 @@
                 <!-- <li class="na">Pharetra massa</li>
                 <li class="na">Massa ultricies mi</li> -->
               </ul>
-              <div class="btn-wrap">
-                <!-- <a href=""  class="btn-buy">Buy Now</a> -->
-                <button class="btn-buy" >Buy Now</button>
-                <!-- <button id="popup" class="btn-buy" onclick="div_show()">Popup</button> -->
+              <!-- <div class="btn-wrap">
+                <a href=""  class="btn-buy">Buy Now</a>
+                <button class="btn-buy" onclick="openForm()">Buy Now</button>
+              </div> -->
+
+
+              <div class="call-to-action-right btn-wrap p-tb30">
+                     <a data-toggle="modal" data-target="#enq" 
+                     class=" btn-buy site-button skew-btn bxd red m-r15 text-uppercase font-weight-600 button-md" >
+                      &nbsp; Buy Now
+                     </a>
               </div>
             </div>
           </div>
@@ -420,10 +454,16 @@
               <!-- <span class="recommended-badge">Recommended</span> -->
               <h3>Open desk</h3>
               <h4><sup>Rs</sup>7000<span> / month</span></h4>
-             
+              <ul>
+                <!-- <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li> -->
+                <!-- <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li> -->
+              </ul>
               <div class="btn-wrap">
                 <!-- <a href=""  class="btn-buy">Buy Now</a> -->
-                <button class="btn-buy" id="myBtn">Buy Now</button>
+                <button class="btn-buy" onclick="openForm()">Buy Now</button>
               </div>
             </div>
           </div>
@@ -432,9 +472,15 @@
             <div class="box">
               <h3>Private cabins</h3>
               <h4><sup>Rs</sup>10000<span> / month</span></h4>
-              
+              <ul>
+                <!-- <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li> -->
+                <!-- <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li> -->
+              </ul>
               <div class="btn-wrap">
-                <button class="btn-buy" id="myBtn">Buy Now</button>
+                <button class="btn-buy" id="myBtn" onclick="openForm()">Buy Now</button>
               </div>
             </div>
           </div>
@@ -447,7 +493,7 @@
      <!-- ======= Contact Section ======= -->
      <section id="contact" class="contact">
       <div class="container">
-        <div class="section-title">
+        <div class="section-header">
           <h2>Still not convinced?</h2>
           <p>Talk to us and we will hear about your
              workplace problems and try to make ends meet by providing the very best solutions!</p>
@@ -472,19 +518,14 @@
                 <p>Connect@pole.com</p>
               </div>
 
-              <div class="phone">
-                <a href="tel:9731863388" class="float1" target="_blank">
-                  <i class="bi bi-phone my-float1"></i>
-                  </a>
+              <div class="email">
+                <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
                 <p>9731863388</p>
               </div>
 
-              <div class="whatsapp">
-                
-                <a href="https://api.whatsapp.com/send?phone=9731863388&text=Hello POLESTAR, I would like to take below services from you, Please share more details on - " class="float" target="_blank">
-                  <i class="ri-whatsapp-line"></i>
-                </a>
+              <div class="email">
+              <i class="ri-whatsapp-line"></i>
                 <h4>Whatsapp:</h4>
                 <p>9731863388</p>
               </div>
@@ -520,13 +561,82 @@
               </div>
               <div class="text-center"><button id="submit_btn" type="submit">Send Message</button></div>
             </form>
+
+
+                        <!-- <form  method="post" action="contact_me.php"  id="contact-form8">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                       <input name="form_name" type="text" required="" class="form-control" placeholder="Name">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                       <input name="form_email" type="text" class="form-control" required="" placeholder="Email">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                       <input name="form_phone" type="text" class="form-control" required="" placeholder="Phone Number">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon v-align-t"><i class="fa fa-pencil"></i></span>
+                                       <textarea name="message" rows="4" class="form-control " required="" placeholder="Message"></textarea>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12">
+                                 <button name="submit" type="submit" class="site-button   pull-right">Submit  <i class="fa fa-angle-double-right"></i></button>
+                              </div>
+                           </div>
+                        </form> -->
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
-
 </main>
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+function popup_vertical_center(){	
+      jQuery(function() {
+        function reposition() {
+          var modal = jQuery(this),
+          dialog = modal.find('.modal-dialog');
+          modal.css('display', 'block');
+          // Dividing by two centers the modal exactly, but dividing by three 
+          // or four works better for larger screens.
+          dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
+        }
+        // Reposition when a modal is shown
+        jQuery('.modal').on('show.bs.modal', reposition);
+        // Reposition when the window is resized
+        jQuery(window).on('resize', function() {
+          jQuery('.modal:visible').each(reposition);
+        });
+      });
+    }
+</script>
 
 <?php include'includes/footer.php'?>

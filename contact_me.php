@@ -1,41 +1,46 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
-
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'anitha13mar@gmail.com';
-
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the " Email Form"');
-  }
-
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->phone = $_POST['phone'];
-
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
-
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
+if(isset($_POST['submit']))
+{
+   extract($_POST); 
+    $to="anitha13mar@gmail.com"; 
+    $strSubject="Glad Infra Contact Enquiry";
+    $message =  "<table width='100%' border='1' cellspacing='0' cellpadding='0'>
+                <tr>
+                <td width='10%' colspan='4' bgcolor='#E31E24' style='padding:10px; color: #fff; font-weight:bold;font-size:24px;'>
+                      Enquiry Form</td>
+                </tr>
+                <tr>
+                <td style='padding:5px;font-weight:bold;'>Name </td>
+                <td style='padding:5px;'>".$form_name."</td>
+                </tr>
+                <tr>
+                <td style='padding:5px;font-weight:bold;'>Phone number </td>
+                <td style='padding:5px;'>".$form_phone."</td>
+                </tr>
+                <tr>
+                <td style='padding:5px;font-weight:bold;'>Email Id</td>
+                <td style='padding:5px;'>".$form_email."</td>
+                </tr>
+                <tr>
+                <td style='padding:5px;font-weight:bold;'>Message</td>
+                <td style='padding:5px;'>".$message."</td>
+                </tr>
+                
+                
+               
+                
+               
+                </table>";              
+    $headers = 'MIME-Version: 1.0'."\r\n";
+    $headers .= 'Content-type: text/html; charset=UTF-8'."\r\n";
+    $from = 'anitha13mar@gmail.com'; // a valid address on your domain
+    $headers .= "From: $from\r\nReply-to: $email";
+    $mail_sent=mail($to, $strSubject, $message, $headers);  
+if($mail_sent)
+        echo "<script>
+        window.location='https://gladinfra.com/thankyou.php';</script>";
+    else
+        echo "<script>
+        window.location='https://gladinfra.com/thankyou.php';</script>";
+}
 ?>

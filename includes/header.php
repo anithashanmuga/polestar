@@ -74,10 +74,10 @@
   <script>
         $(function () { 
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 80) { 
+                if ($(this).scrollTop() > 100) { 
                     $('.logo img').attr('src','assets/img/logo.jpg');
                 }
-                if ($(this).scrollTop() < 80) { 
+                if ($(this).scrollTop() < 110) { 
                     $('.logo img').attr('src','assets/img/Pole star - final Logo-03.png');
                 }
             })
