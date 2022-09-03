@@ -35,9 +35,9 @@ if(isset($_POST['submit']))
     $mail_sent=mail($to, $strSubject, $message, $headers);  
 if($mail_sent)
         echo "<script>
-        window.location='https://gladinfra.com/thankyou.php';</script>";
+        window.location='https://gpsagrilife.com/demo/polestar/thankyou.php';</script>";
     else
         echo "<script>
-        window.location='https://gladinfra.com/thankyou.php';</script>";
+        window.location='https://gpsagrilife.com/demo/polestar/thankyou.php';</script>";
 }
 ?>

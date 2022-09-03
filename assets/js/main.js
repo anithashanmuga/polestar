@@ -274,92 +274,10 @@
     loop: true,
   });
 
-  // Vertically center Bootstrap modal popup function by = custom.js ==============//
-
-	function popup_vertical_center(){	
-		jQuery(function() {
-			function reposition() {
-				var modal = jQuery(this),
-				dialog = modal.find('.modal-dialog');
-				modal.css('display', 'block');
-				// Dividing by two centers the modal exactly, but dividing by three 
-				// or four works better for larger screens.
-				dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
-			}
-			// Reposition when a modal is shown
-			jQuery('.modal').on('show.bs.modal', reposition);
-			// Reposition when the window is resized
-			jQuery(window).on('resize', function() {
-				jQuery('.modal:visible').each(reposition);
-			});
-		});
-	}
-
-  // > input type file function by = custom.js ========================== //	 	 
-
-	function input_type_file_form(){
-		jQuery(document).on('change', '.btn-file :file', function() {
-			var input = jQuery(this),
-				numFiles = input.get(0).files ? input.get(0).files.length : 1,
-				label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-			input.trigger('fileselect', [numFiles, label]);
-		});
-
-		jQuery('.btn-file :file').on('fileselect', function(event, numFiles, label) {
-			var input = jQuery(this).parents('.input-group').find(':text'),
-				log = numFiles > 10 ? numFiles + ' files selected' : label;
-			if (input.length) {
-				input.val(log);
-			} else {
-				if (log) alert(log);
-			}
-		});	
-	}
-
-// > input Placeholder in IE9 function by = custom.js ======================== //	
-
-	function placeholderSupport(){
-	/* input placeholder for ie9 & ie8 & ie7 */
-		jQuery.support.placeholder = ('placeholder' in document.createElement('input'));
-		/* input placeholder for ie9 & ie8 & ie7 end*/
-		/*fix for IE7 and IE8  */
-		if (!jQuery.support.placeholder) {
-			jQuery("[placeholder]").on('focus', function () {
-				if (jQuery(this).val() === jQuery(this).attr("placeholder")) jQuery(this).val("");
-			}).blur(function () {
-				if (jQuery(this).val() === "") jQuery(this).val(jQuery(this).attr("placeholder"));
-			}).blur();
-
-			jQuery("[placeholder]").parents("form").on('submit', function () {
-				jQuery(this).find('[placeholder]').each(function() {
-					if (jQuery(this).val() === jQuery(this).attr("placeholder")) {
-						 jQuery(this).val("");
-					}
-				});
-			});
-		}
-		/*fix for IE7 and IE8 end */
-	}
-
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
 
-
-  
-/*--------------------------------------------------------------------------------------------
-	document.ready ALL FUNCTION START
----------------------------------------------------------------------------------------------*/
-	jQuery(document).ready(function() { 		
-     
-    // > Vertically center Bootstrap modal popup function 
-      popup_vertical_center();
-    // > input Placeholder in IE9 function 		
-      placeholderSupport(),
-
-      input_type_file_form()
-    
-    })
 
 })()

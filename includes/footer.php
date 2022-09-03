@@ -31,11 +31,11 @@
       <!-- <script src="assets/vendor/aos/aos.js"></script> -->
       <script src="assets/vendor/php-email-form/validate.js"></script>
       <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
       <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
       <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      
       <script src="assets/js/main.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
@@ -43,12 +43,6 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- JQUERY.MIN JS -->
       <script src="assets/js/jquery.validate.min.js"></script>
-      <script src="assets/js/jquery-1.12.4.min.js"></script>
-      <script src="assets/js/jquery.bootstrap-touchspin.min.js"></script>
-      <script src="assets/js/magnific-popup.min.js"></script>
-      <script src="assets/vendor/bootstrap/js/bootstrap-select.min.js"></script>
-      <script type="text/javascript">
-          $('#contact-form1').validate();
-      </script>
+
   </body>
 </html>

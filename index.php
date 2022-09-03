@@ -525,7 +525,6 @@
 </main>
 
 
-
 <script>
     function openForm() {
       document.getElementById("myForm").style.display = "block";
@@ -601,11 +600,6 @@
       }	
 
     
-
 </script>
-
-<script type="text/javascript">
-          $('#contact-form1').validate();
-      </script>
 
 <?php include'includes/footer.php'?>
